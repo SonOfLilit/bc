@@ -79,7 +79,7 @@ However,
 people who want to work this way need to make some decisions
 about what exactly "open" means in practice.
 
-#### Licensing
+### Licensing
 
 The first question is licensing.
 Broadly speaking,
@@ -144,11 +144,10 @@ without needing to cite the original
 or restrict further re-use.
 The table below shows how the six Creative Commons licenses and PD relate to one another:
 
+<!--- Replace the caption with colspan when it was supported by pandoc:
+https://github.com/jgm/pandoc/issues/1340 -->
 <table border="1">
-  <tr>
-    <td></td>
-    <td colspan="7" align="center">Licenses that can be used for derivative work or adaptation</td>
-  </tr>
+  <caption>Licenses that can be used for derivative work or adaptation</caption>
   <tr>
     <td>Original work</td> <td>by</td> <td>by-nc</td> <td>by-nc-nd</td> <td>by-nc-sa</td> <td>by-nd</td> <td>by-sa</td> <td>pd</td>
   </tr>
@@ -202,7 +201,7 @@ Greg Wilson: "Software Carpentry: Lessons Learned". arXiv:1307.5448, July 2013.
 ~~~
 </div>
 
-#### Hosting
+### Hosting
 
 The second big question for groups that want to open up their work
 is where to host their code and data.

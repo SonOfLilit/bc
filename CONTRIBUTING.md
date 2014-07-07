@@ -23,7 +23,6 @@ to get feedback on your ideas and coordinate with other developers.
 *   [Locations](#locations)
 *   [Formats](#formats)
 *   [Sample Files](#sample-files)
-*   [Previewing](#previewing)
 *   [FAQ](#faq)
 
 Working With GitHub

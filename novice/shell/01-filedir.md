@@ -146,7 +146,7 @@ solar.pdf    swc
 
 `ls` prints the names of the files and directories in the current directory in alphabetical order,
 arranged neatly into columns.
-We can make its output more comprehensible by using the [flag](../../gloss.html#command-line-flag) `-F`,
+We can make its output more comprehensible by using the [flag](../../gloss.html#flag) `-F`,
 which tells `ls` to add a trailing `/` to the names of directories:
 
 ~~~
@@ -229,6 +229,10 @@ rather than from the root of the file system.
 > however,
 > most people use them interchangeably or inconsistently,
 > so we will too.
+
+#### Concept Map
+
+<img src="img/01-filedir-command.gv.svg" alt="Command Concept Map" />
 
 If we run `ls -F /data` (*with* a leading slash) we get a different answer,
 because `/data` is an [absolute path](../../gloss.html#absolute-path):
@@ -381,7 +385,7 @@ but we'll see some uses for it soon.
 > Orthogonal systems tend to be easier for people to learn
 > because there are fewer special cases and exceptions to keep track of.
 
-#### Nelle's Pipeline: Organizing Files
+### Nelle's Pipeline: Organizing Files
 
 Knowing just this much about files and directories,
 Nelle is ready to organize the files that the protein assay machine will create.
@@ -469,10 +473,17 @@ and we will see it in many other tools as we go on.
 
 </div>
 
+#### Concept Map
+
+<img src="img/01-filedir-path.gv.svg" alt="Path Concept Map" />
+
+#### Challenges
+
 <img src="img/filesystem-challenge.svg" alt="Filesystem for Challenge Questions" />
 
 <div class="challenge" markdown="1">
 If `pwd` displays `/users/thing`, what will `ls ../backup` display?
+
 1.  `../backup: No such file or directory`
 2.  `2012-12-01 2013-01-08 2013-01-27`
 3.  `2012-12-01/ 2013-01-08/ 2013-01-27/`
@@ -496,6 +507,7 @@ pnas-sub/ pnas-final/ original/
 
 <div class="challenge" markdown="1">
 What does the command `cd` without a directory name do?
+
 1.  It has no effect.
 2.  It changes the working directory to `/`.
 3.  It changes the working directory to the user's home directory.

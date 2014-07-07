@@ -422,7 +422,7 @@ $ grep FE $(find . -name '*.pdb' -print)
 > modern programming languages, Python included, have borrowed a lot of
 > ideas from it, and imitation is also the sincerest form of praise.
 
-#### Conclusion
+### Conclusion
 
 The Unix shell is older than most of the people who use it. It has
 survived so long because it is one of the most productive programming
@@ -443,6 +443,12 @@ about them."
 *   `man command` displays the manual page for a given command.
 
 </div>
+
+#### Concept Map
+
+<img src="img/06-find.gv.svg" alt="grep and find Concept Map" />
+
+#### Challenges
 
 <div class="challenge" markdown="1">
 Write a short explanatory comment for the following shell script:

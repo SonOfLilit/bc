@@ -294,6 +294,9 @@ we have a completely accurate record of how we created that figure.
 > history | tail -5
 > history | tail -5 | colrm 1 7
 > ~~~
+>
+> The `colrm` may not be installed on every computer, and specifically on Windows computers.
+> `cut` and `awk` are two other tools that can achieve a similar purpose.
 
 In practice, most people develop shell scripts by running commands at the shell prompt a few times
 to make sure they're doing the right thing,
@@ -303,7 +306,7 @@ what they discover about their data and their workflow with one call to `history
 and a bit of editing to clean up the output
 and save it as a shell script.
 
-#### Nelle's Pipeline: Creating a Script
+### Nelle's Pipeline: Creating a Script
 
 An off-hand comment from her supervisor has made Nelle realize that
 she should have provided a couple of extra parameters to `goostats` when she processed her files.
@@ -381,6 +384,12 @@ Of course, this introduces another tradeoff between flexibility and complexity.
 *   Letting users decide what files to process is more flexible and more consistent with built-in Unix commands.
 
 </div>
+
+#### Concept Map
+
+<img src="img/05-script.gv.svg" alt="Script Concept Map" />
+
+#### Challenges
 
 <div class="challenge" markdown="1">
 Leah has several hundred data files, each of which is formatted like this:
